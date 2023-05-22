@@ -1,0 +1,70 @@
+body {
+  font-family:sans-serif;
+  background-color: rgb(201, 172, 255);
+  margin: 50px 50px;
+  width: fit-content;
+}
+
+main {
+  display: grid;
+  width: fit-content;
+}
+
+.ladder {
+  display: grid;
+  margin: auto;
+}
+
+.neon-ladder {
+  width: 100%;
+  height: auto;
+  border: solid 3px rgb(61, 7, 110);
+  box-shadow: 10px 10px 5px rgb(170, 129, 216);
+
+}
+
+figcaption {
+  background-color: rgb(61, 7, 110);
+  color: rgba(255, 255, 255, 0.795);
+  font-style:oblique;
+  padding: 5px 15px;
+  width: 290px;
+  border: solid 3px rgb(61, 7, 110);
+  box-shadow: 10px 10px 5px rgb(170, 129, 216);  
+}
+
+.koponyas:link {
+  color:rgb(186, 167, 202);
+  text-decoration: underline;
+}
+
+.koponyas:hover {
+  color:rgb(245, 136, 255);
+  text-decoration: none;
+}
+
+.koponyas:active {
+  color:rgb(248, 228, 111);
+  text-decoration: none;
+}
+
+.koponyas:visited {
+  color:rgb(111, 136, 248);
+  text-decoration: none;
+}
+
+.ordered-list-item1, .ordered-list-item2, .ordered-list-item3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.unordered-list-item {
+  padding: 5px 40px;
+  list-style:square;
+}
+
+.foot-note:link {
+  color: rgb(61, 7, 110);
+}
+
+
