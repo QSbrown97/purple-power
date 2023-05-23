@@ -1,13 +1,39 @@
 body {
-  font-family:sans-serif;
+  font-family:sans-serif, monospace;
+  
   background-color: rgb(201, 172, 255);
-  margin: 50px 50px;
+  margin: 10px 50px 25px 50px;
   width: fit-content;
+}
+
+.header-element {
+  text-align: center;
+  line-height: 2;
+  color: rgb(212, 190, 253);
+  background-color:rgb(61, 7, 110);
+  width: auto;
+  height: 75px;
+  padding: 0px 15px;
+  margin-top: 0px;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 0;
 }
 
 main {
   display: grid;
   width: fit-content;
+}
+
+.paragraph {
+  text-indent: 25px;
+  margin: 15px 0px 50px 0px;
+}
+
+.h2-element {
+  margin-bottom: 0;
 }
 
 .ladder {
