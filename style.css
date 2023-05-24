@@ -89,6 +89,10 @@ figcaption {
   list-style:square;
 }
 
+input {
+  display: block;
+}
+
 .foot-note:link {
   color: rgb(61, 7, 110);
 }
