@@ -17,72 +17,104 @@
   <main>
     <h2 class="h2-element">Why Purple?</h2>
     <!--TODO: Add link to photos-->
-    <p class="paragraph">For as long as I have been alive, until recently, 
-      if you asked me what my favorite color was I would've said Green! 
+    <p class="paragraph">For as long as I have been alive, until recently,
+      if you asked me what my favorite color was I would've said Green!
       Now at the age of 26 I am finally realizing that my favorite color has been Purple all along.
-      Thinking back to my child/teen years, I realized I have always ended up with purple things. 
-      Purple toys, Purple clothes, Purple anything! Now I am full on embracing my love for Purple 
-      and all its various shades.  
+      Thinking back to my child/teen years, I realized I have always ended up with purple things.
+      Purple toys, Purple clothes, Purple anything! Now I am full on embracing my love for Purple
+      and all its various shades and tints.
     </p>
     <section class="ladder">
-      <a class="ladder" href="https://unsplash.com/photos/s3hkS14riOM" 
-        target="_blank" rel="noopener noreferrer">
-          <img class="neon-ladder" src="images/neonLadder.jpg" 
-            alt="A photo of a ladder and box with purple neon lights" />
+      <a class="ladder" href="https://unsplash.com/photos/s3hkS14riOM" target="_blank" rel="noopener noreferrer">
+        <img class="neon-ladder" src="images/neonLadder.jpg"
+          alt="A photo of a ladder and box with purple neon lights" />
       </a>
       <figcaption>Photo by
         <a class="koponyas" target="_blank"
           href="https://unsplash.com/@kopidanny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
           Daniel Koponyas </a> on
-        <a class="koponyas" target="_blank"
-          href="https://unsplash.com/">
+        <a class="koponyas" target="_blank" href="https://unsplash.com/">
           Unsplash</a>
       </figcaption>
 
     </section>
-    
+
     <section class="list">
-      <h2>Purple Power</h2>
+      <h2 class="h2-element purple-power">Purple Power</h2>
       <ol class="ordered-list">
-        <li class="ordered-list-item1">Meaning:</li>
-          <ul class="unordered-list-item">
-            <li>Royalty</li>
-            <li>Power</li>
-            <li>Mystery</li>
-          </ul>
-        
-        <li class="ordered-list-item2">Symbolism:</li>
-          <ul class="unordered-list-item">
-            <li>Wealth</li>
-            <li>Spirituality</li>
-            <li>Emotions</li>
-          </ul>
-        
-        <li class="ordered-list-item3">Emotions:</li>
-          <ul class="unordered-list-item">
-            <li>Creativity</li>
-            <li>Luxury</li>
-            <li>Calmness</li>
-          </ul>
-        </ol>
+        <li class="ordered-list-item1">Meaning &#128302:</li>
+        <ul class="unordered-list-item">
+          <li>Royalty</li>
+          <li>Power</li>
+          <li>Mystery</li>
+        </ul>
+
+        <li class="ordered-list-item2">Symbolism &#10024;:</li>
+        <ul class="unordered-list-item">
+          <li>Wealth</li>
+          <li>Spirituality</li>
+          <li>Emotions</li>
+        </ul>
+
+        <li class="ordered-list-item3">Emotions &#128156:</li>
+        <ul class="unordered-list-item">
+          <li>Creativity</li>
+          <li>Luxury</li>
+          <li>Calmness</li>
+        </ul>
+      </ol>
     </section>
 
     <section class="form-element">
-      <h2>Survey:</h2>
+      <h2>Purple Survey:</h2>
+
       <form id="form-one" action="index.html">
-        <label for="color">What is your favorite color?</label>
-        <input type="text" id="color" name="color" placeholder="ex: green" required>
-        <input type="radio" name="rando" id="rando">Rando
-        <button type="submit">Enter</button>
+        <label for="color">What is your favorite color?
+          <input type="text" id="color" name="color" placeholder="ex: green" required>
+        </label>
+        <label class="form-question">What does the color Purple mean to you?</label>
+        <label for="meaning">
+          <input type="radio" name="meaning" id="meaning" required>Royalty
+        </label>
+        <label for="power">
+          <input type="radio" name="meaning" id="power">Power
+        </label>
+        <label for="mystery">
+          <input type="radio" name="meaning" id="mystery">Mystery
+        </label>
+
+        <label class="form-question">What does the color Purple symbolize to you?</label>
+        <label for="symbolism">
+          <input type="radio" name="symbolism" id="wealth" required>Wealth
+        </label>
+        <label for="power">
+          <input type="radio" name="symbolism" id="spirituality">Spirituality
+        </label>
+        <label for="mystery">
+          <input type="radio" name="symbolism" id="emotions">Emotions
+        </label>
+
+        <label class="form-question">What does the color Purple symbolize to you?</label>
+        <label for="emotions">
+          <input type="radio" name="emotions" id="creativity" required>Creativity
+        </label>
+        <label for="power">
+          <input type="radio" name="emotions" id="luxury">Luxury
+        </label>
+        <label for="mystery">
+          <input type="radio" name="emotions" id="calmness">Calmness
+        </label>
+
+        <input id="submit" type="submit" />
+
       </form>
     </section>
   </main>
 
   <footer>
-    &copyQuana Brown 2023 all photos provided by 
-    <a class="koponyas foot-note" target="_blank"
-    href="https://unsplash.com/">
-    Unsplash</a>
+    &copyQuana Brown 2023 all photos provided by
+    <a class="koponyas foot-note" target="_blank" href="https://unsplash.com/">
+      Unsplash</a>
   </footer>
 </body>
 
