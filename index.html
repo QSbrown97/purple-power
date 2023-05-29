@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <header class="header-element">
     <h1>Purple Passion</h1>
   </header>
@@ -65,61 +66,66 @@
       </ol>
     </section>
 
-    <section class="form-element">
-      <h2>Purple Survey:</h2>
+    <section>
+      <form action="index.html" method="get">
+        <fieldset class="form-one">
+          <legend class="form-legend">Purple Survey</legend>
+          <fieldset class="field">
+            <legend>What is your name?</legend>
+            <label for="user-name">
+              <input type="text" id="user-name" name="user-name" placeholder="ex: Jane Doe" required>
+            </label>
+          </fieldset>
 
-      <form id="form-one" action="index.html">
-        <label for="color">What is your favorite color?
-          <input type="text" id="color" name="color" placeholder="ex: green" required>
-        </label>
-        <label class="form-question">What does the color Purple mean to you?</label>
-        <label for="meaning">
-          <input type="radio" name="meaning" id="meaning" required>Royalty
-        </label>
-        <label for="power">
-          <input type="radio" name="meaning" id="power">Power
-        </label>
-        <label for="mystery">
-          <input type="radio" name="meaning" id="mystery">Mystery
-        </label>
+          <fieldset class="field">
+            <legend class="form-question">What does the color Purple mean to you?</legend>
+            <label for="meaning">
+              <input type="radio" name="meaning" value="royalty" id="royalty" required>Royalty
+            </label>
+            <label for="power">
+              <input type="radio" name="meaning" value="power" id="power">Power
+            </label>
+            <label for="mystery">
+              <input type="radio" name="meaning" value="mystery" id="mystery">Mystery
+            </label>
+          </fieldset>
 
-        <label class="form-question">What does the color Purple symbolize to you?</label>
-        <label for="symbolism">
-          <input type="radio" name="symbolism" id="wealth" required>Wealth
-        </label>
-        <label for="power">
-          <input type="radio" name="symbolism" id="spirituality">Spirituality
-        </label>
-        <label for="mystery">
-          <input type="radio" name="symbolism" id="emotions">Emotions
-        </label>
+          <fieldset class="field">
+            <legend class="form-question">What does the color Purple symbolize to you?</legend>
+            <label for="symbolism">
+              <input type="radio" name="symbolism" value="wealth" id="wealth" required>Wealth
+            </label>
+            <label for="power">
+              <input type="radio" name="symbolism" value="spirituality" id="spirituality">Spirituality
+            </label>
+            <label for="mystery">
+              <input type="radio" name="symbolism" value="emotions" id="emotions">Emotions
+            </label>
+          </fieldset>
 
-        <label class="form-question">What does the color Purple symbolize to you?</label>
-        <label for="emotions">
-          <input type="radio" name="emotions" id="creativity" required>Creativity
-        </label>
-        <label for="power">
-          <input type="radio" name="emotions" id="luxury">Luxury
-        </label>
-        <label for="mystery">
-          <input type="radio" name="emotions" id="calmness">Calmness
-        </label>
+          <fieldset class="field">
+            <legend class="form-question">What does the color Purple symbolize to you?</legend>
+            <label for="emotions">
+              <input type="radio" name="emotions" value="creativity" id="creativity" required>Creativity
+            </label>
+            <label for="power">
+              <input type="radio" name="emotions" value="luxury" id="luxury">Luxury
+            </label>
+            <label for="mystery">
+              <input type="radio" name="emotions" value="calmness" id="calmness">Calmness
+            </label>
+          </fieldset>
 
-        <input id="submit" type="submit" />
+          <input id="submit" type="submit" />
 
+        </fieldset>
       </form>
     </section>
   </main>
 
   <footer class="three">
-    &copyQuana Brown 2023 all photos provided by
-    <a class="koponyas foot-note" target="_blank" href="https://unsplash.com/">
-      Unsplash</a>
+    &copyQuana Brown 2023
   </footer>
 </body>
 
 </html>
-<!-- Following along with Free Code Camp to create new portfolio piece
-1. Currently working on the unordered lists to change the list style!
-2. Working on creating navigation menu within the header
-3. Working on the form element -->
